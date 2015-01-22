@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    padding:0;
+    background: url(images/fond.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    color:white;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+
+header {
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.chrono {
+    font-family: digiface;
+    color:rgb(46, 204, 113);
+    background-color: black;
+    font-size:150%;
+    padding:5px;
+}
+
+#circuit {
+    padding-top:10px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#circuit img {
+    width:80%
+}
+
+#diapo {
+    font-size: 200%;
+}
+
+.btn-group{
+    margin-bottom: 10px;
+}
+
+#voiture {
+    padding-top:30px;
+    padding-bottom: 50px;
+	width:100%;
+	display:inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#voiture1 {
+	float:left;
+	width:20%;
+    margin-left:5%;
+}
+
+#voiture2 {
+	float:left;
+	width:20%;
+	margin-left:5%;
+}
+
+#voiture3 {
+	float:left;
+	width:20%;
+	margin-left:5%;
+}
+
+#voiture4 {
+	float:left;
+	width:20%;
+	margin-left:5%;
+}
