@@ -28,19 +28,19 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
               <div class="item active">
-                  <img src="images/circuit1.png" alt="...">
+                  <img src="css/images/circuit1.png" alt="...">
                   <div class="carousel-caption">
                       1
                   </div>
               </div>
               <div class="item">
-                  <img src="images/circuit1.png" alt="...">
+                  <img src="css/images/circuit1.png" alt="...">
                   <div class="carousel-caption">
                       2
                   </div>
               </div>
               <div class="item">
-                  <img src="images/circuit1.png" alt="...">
+                  <img src="css/images/circuit1.png" alt="...">
                   <div class="carousel-caption">
                       3
                   </div>
@@ -60,18 +60,18 @@
       </div>
 
   </section>
-  <section id="voiture" >
+  <section id="voiture" ng-controller="homeCtrl">
   	<!-- section interaction avec les véhicules -->
   		<h2>VOITURES</h2>
   		<div id="voiture1" >
             <h3>Voiture 1</h2>
                 <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-success">START</button>
+                    <button type="button" class="btn btn-success" ng-click='startVoiture()'>START</button>
                     <button type="button" class="btn btn-danger">STOP</button>
                 </div>
                 <table>
                     <tr>
-                        <td>Vitesse : </td>
+                        <td>Vitesse : {{vitesseA}}</td>
                         <td></td>
                     </tr>
                     <tr>
