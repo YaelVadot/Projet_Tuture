@@ -14,7 +14,7 @@ header {
 
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
@@ -30,10 +30,6 @@ h2 {
     padding-top:10px;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
-}
-
-#circuit img {
-    width:80%
 }
 
 #diapo {
@@ -52,26 +48,12 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#voiture1 {
+#voitures {
 	float:left;
 	width:20%;
     margin-left:5%;
 }
 
-#voiture2 {
-	float:left;
-	width:20%;
-	margin-left:5%;
-}
-
-#voiture3 {
-	float:left;
-	width:20%;
-	margin-left:5%;
-}
-
-#voiture4 {
-	float:left;
-	width:20%;
-	margin-left:5%;
+#select-box{
+	color:black;
 }
